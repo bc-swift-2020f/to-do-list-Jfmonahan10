@@ -17,6 +17,10 @@
 		8F1109DF2521771A00AFE2EE /* ToDoListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1109DE2521771A00AFE2EE /* ToDoListAppUITests.swift */; };
 		8F1109ED2521897600AFE2EE /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1109EC2521897600AFE2EE /* ToDoTableViewController.swift */; };
 		8F6F4F602522477800390145 /* ToDoItemStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F4F5F2522477800390145 /* ToDoItemStruct.swift */; };
+		8F6F4F9E252A766100390145 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F4F9D252A766100390145 /* ListTableViewCell.swift */; };
+		8F6F4FA0252B79F400390145 /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F4F9F252B79F400390145 /* ToDoItems.swift */; };
+		8F6F4FA2252B854F00390145 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F4FA1252B854F00390145 /* LocalNotificationManager.swift */; };
+		8F6F4FA4252B906E00390145 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F4FA3252B906E00390145 /* UIViewController+alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		8F1109E02521771A00AFE2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F1109EC2521897600AFE2EE /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		8F6F4F5F2522477800390145 /* ToDoItemStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemStruct.swift; sourceTree = "<group>"; };
+		8F6F4F9D252A766100390145 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		8F6F4F9F252B79F400390145 /* ToDoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
+		8F6F4FA1252B854F00390145 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		8F6F4FA3252B906E00390145 /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +113,13 @@
 			children = (
 				8F1109BC2521771900AFE2EE /* AppDelegate.swift */,
 				8F1109BE2521771900AFE2EE /* SceneDelegate.swift */,
+				8F6F4FA1252B854F00390145 /* LocalNotificationManager.swift */,
+				8F6F4FA3252B906E00390145 /* UIViewController+alert.swift */,
 				8F6F4F5F2522477800390145 /* ToDoItemStruct.swift */,
 				8F1109EC2521897600AFE2EE /* ToDoTableViewController.swift */,
 				8F1109C02521771900AFE2EE /* toDoListViewController.swift */,
+				8F6F4F9D252A766100390145 /* ListTableViewCell.swift */,
+				8F6F4F9F252B79F400390145 /* ToDoItems.swift */,
 				8F1109C22521771900AFE2EE /* Main.storyboard */,
 				8F1109C52521771A00AFE2EE /* Assets.xcassets */,
 				8F1109C72521771A00AFE2EE /* LaunchScreen.storyboard */,
@@ -266,10 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F1109C12521771900AFE2EE /* toDoListViewController.swift in Sources */,
+				8F6F4FA0252B79F400390145 /* ToDoItems.swift in Sources */,
 				8F1109ED2521897600AFE2EE /* ToDoTableViewController.swift in Sources */,
+				8F6F4FA4252B906E00390145 /* UIViewController+alert.swift in Sources */,
 				8F1109BD2521771900AFE2EE /* AppDelegate.swift in Sources */,
 				8F1109BF2521771900AFE2EE /* SceneDelegate.swift in Sources */,
 				8F6F4F602522477800390145 /* ToDoItemStruct.swift in Sources */,
+				8F6F4FA2252B854F00390145 /* LocalNotificationManager.swift in Sources */,
+				8F6F4F9E252A766100390145 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
